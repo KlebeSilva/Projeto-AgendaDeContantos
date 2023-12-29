@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+span h1{
+    border-bottom: 1px solid #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span h3 {
+    margin: 6px 0 4px 12px;
+}
+
+span p {
+    width: 460px;
+    line-height:20px;
+}
+
+mark {
+    background-color: rgba(103, 207, 207, 0.5);
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+body {
+    background-color: rgb(210, 235, 235);
+    padding: 80px;
+}
+
+form {
+    max-width: 640px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+form input{
+    width: 400px;
+    margin: 20px 4px;
+    padding: 8px 2px 8px 4px ;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid black;
+}
+
+form button {
+    margin-left: 4px;
+    padding: 8px;
+    font-size: 15px;
+    background-color: rgb(169, 240, 169);
+    outline: none;
+    font-weight: bold;
+    border: 1px solid rgb(7, 100, 7);;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(223, 241, 223);
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+    border-spacing: 0;
+    background-color: rgb(225, 235, 235);
+}
+
+table th, td {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+table th {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+table td {
+    font-size: 14px;
+}
+
+tfoot td {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+
+
+
+
+
